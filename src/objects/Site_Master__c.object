@@ -183,7 +183,7 @@
     </fields>
     <fields>
         <fullName>Site_Contact__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <deleteConstraint>SetNull</deleteConstraint> 
         <externalId>false</externalId>
         <label>Site Contact</label>
         <referenceTo>Site_Contact__c</referenceTo>
