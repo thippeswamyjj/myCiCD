@@ -1,0 +1,331 @@
+<apex:page >
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"> </script>
+   <table>
+      <tr>
+         <th>
+            Object Name
+         </th>
+         <th>
+            <select id="objectList"></select>
+         </th>
+      </tr>
+      <tr>
+         <th>
+            Field API Names Comma Separated
+         </th>
+         <th>
+            <textarea rows="10" cols="150" id="fieldAPiNames" >
+            ABC_Class__c,Age__c,Account_Address_2__c,Account_Address_3__c,Account_Address_4__c,Account_CompanyCode__c,Account_Name_Ext__c,Account_Number__c,Account_Shiping_Address__c,Account_Shipping_City__c,Account_Shipping_Country__c,Account_Shipping_State__c,Account_Shipping_Street__c,Account_Zip_Code__c,APAS_Action__c,APAS_Entitlement_Flag__c,Asset_Region__c,Calculated_Case_Priority__c,RCase_Created_by_Workcenter__c,Case_Number_12Digit__c,RCase_Opened_Hour_of_Day__c,Case_Type__c,Chosen_Activity_Type__c,CMAI_Action__c,CMAI_Entitlement_Flag__c,SVMXC__Component_City__c,SVMXC__Component_Country__c,SVMXC__Component_State__c,SVMXC__Component_Street__c,SVMXC__Component_Zip__c,Contact_Email__c,Contact_Function__c,Contract_Line_Item_Material__c,Country__c,ESMX_Created_Date_CSR__c,Credit_Status_at_Case_Creation__c,ESMX_Customer_Product_Preference__c,EMS_Product__c,Entitlement_Type__c,ESMX_CSR_Created_Date__c,Service_Desk_User__c,HVC_Value__c,HW_Material__c,HW_Material_Description__c,HW_Serial__c,ESMX_IP_Remote_Monitor__c,EMS_ISEE_Case__c,Mag_Code__c,Parent_AR_Status__c,parent_override_status__c,PCQL__c,PO_Payor_SAP_Number__c,PSF_Needed__c,Product_Code__c,ProductField__c,Product_Modality__c,Product_Name__c,PSF_Status__c,Reference_Product_Code__c,Reference_Serial_Number__c,Reference_Software_Version__c,RMSE_Action__c,RMSE_Entitlement_Flag__c,RPCL_Action__c,RPCL_Entitlement_Flag__c,X4_Q_Status__c,Sales_Org__c,SAP_Call_Type__c,SAP_Customer_Symptom_Code__c,SAP_Customer_Symptom_Code_Group__c,SAP_Engineer_Failure_Code__c,SAP_Engineer_Failure_Code_Group__c,SAP_Product_Group__c,SAP_Product_Group_Description__c,SAP_Repair_Activity_Code__c,SAP_Repair_Activity_Code_Group__c,SVMXC__SContract_Business_Hour__c,Serial_Number__c,Service_Contract_ID__c,Software_Material__c,Software_Material_Description__c,Software_Only_Onsite_Dispatch__c,Software_Serial__c,Software_Version_Asset__c,Survey_BU__c,Technical_Id__c,slaViolation__c
+            </textarea>
+         </th>
+      </tr>
+      <tr>
+         <td colspan="2">
+            <img src="/img/loading32.gif" id="spinnerIcon" width="25" height="25" />
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2">
+            <input type="checkbox" name="Apex Class" id="ApexClass" checked="true">Apex Class</input> <br/>
+            <input type="checkbox" name="Apex Trigger" id="ApexTrigger" checked="true">Apex Trigger</input> <br/>
+            <input type="checkbox" name="Apex Page" id="ApexPage" checked="true">Apex Page</input> <br/>
+            <input type="checkbox" name="Email Template" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+id+from+EmailTemplate" data-individualquery="/services/data/v41.0/tooling/query?q=select+name,fullName,metadata+from+EmailTemplate+where+id+=" data-filter="">Email Template</input><br/>
+            <input type="checkbox" name="Layout" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+Id+from+layout+where+EntityDefinitionId=" data-individualquery="/services/data/v41.0/tooling/query?q=select+Id,fullName,metadata+from+layout+where+id+=" data-filter="+AND+EntityDefinitionId=" checked="true">Layout</input><br/>
+            <input type="checkbox" name="Validation Rule" id="ValidationRule" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+id+from+ValidationRule+where+EntityDefinitionId=" data-individualquery="/services/data/v41.0/tooling/query?q=select+fullName,metadata+from+ValidationRule+where+id+=" data-filter="+AND+EntityDefinitionId=" data-listqueryfilter="+where+EntityDefinitionId=" data-individualqueryfilter="+AND+EntityDefinitionId=" checked="true">Validation Rule</input> 
+            <input type="checkbox" onchange="nullifyFilter()">Global Search</input> <br/>
+            <input type="checkbox" name="Workflow Field Update" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+id+from+WorkflowFieldUpdate+where+EntityDefinitionId=" data-individualquery="/services/data/v41.0/tooling/query?q=select+name,fullName,metadata+from+WorkflowFieldUpdate+where+id+=" data-filter="+AND+EntityDefinitionId=" checked="true">Workflow Field Update</input><br/>
+            <input type="checkbox" name="Workflow Email Alert" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+id+from+WorkflowAlert+where+EntityDefinitionId=" data-individualquery="/services/data/v41.0/tooling/query?q=select+fullName,metadata+from+WorkflowAlert+where+id+=" data-filter="+AND+EntityDefinitionId=" checked="true">Workflow Email Alert</input><br/>
+            <input type="checkbox" name="Workflow Outbound Message" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+id+from+WorkflowOutboundMessage+where+EntityDefinitionId=" data-individualquery="/services/data/v41.0/tooling/query?q=select+name,fullName,metadata+from+WorkflowOutboundMessage+where+id+=" data-filter="+AND+EntityDefinitionId=" checked="true">Workflow Outbound Message</input><br/>
+            <input type="checkbox" name="WebLink" class="filter" data-listquery="/services/data/v42.0/tooling/query?q=+select+id+from+WebLink+where+EntityDefinitionId=" data-individualquery="/services/data/v41.0/tooling/query?q=select+name,fullName,metadata+from+WebLink+where+id+=" data-filter="+AND+EntityDefinitionId=" checked="true">WebLink</input><br/>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" align="center">
+            <button type="submit" id="submitForm" onclick="processData();return false;" value="Submit">Submit</button>  
+            <Br/>                      <Br/>                      <Br/>                      <Br/>     
+         </td>
+      </tr>
+   </table>
+   <table id="resultsTable" style="width:80%">
+      <tr>
+         <th>
+            Field Name
+         </th>
+         <th>
+            Metadata Name
+         </th>
+         <th>
+            Metadata Type
+         </th>
+      </tr>
+   </table>
+   <script>
+      var access_token = '{!GETSESSIONID()}';
+      var numberOfIterations = 0;
+      $(document).ready(function(){
+          $('#spinnerIcon').hide();
+          loadObjectsList();
+      
+      });
+      
+      function loadObjectsList(){
+          $.ajax({
+                 url: 'https://' + window.location.hostname+'/services/data/v42.0/tooling/query?q='+'select+DurableId,QualifiedApiName+from+EntityDefinition+where+IsCustomizable=true+order+by+QualifiedApiName',
+                 type: "GET",
+                 beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                 success: function(data) {
+                     for(var i=0; i< data.records.length;i++){
+                         let x = data.records[i] ;
+                         $('#objectList').append($('<option/>', { 
+                            value: x.DurableId,
+                            text : x.QualifiedApiName  
+                        }));
+                         
+                     }
+                 }
+          });
+      }
+      
+      function processData(){
+          numberOfIterations = 0;
+          $('#spinnerIcon').show();
+          $('#resultsTable .data').html('');
+          var lstHtmlElements = $(".filter");
+          for (var i=0;i < lstHtmlElements.length ; i++){
+              if(lstHtmlElements[i].checked){
+                  getMetaDataList(lstHtmlElements[i]);    
+              }
+          }  
+          if($('#ApexClass')[0].checked)
+              getApexClassList();
+          if($('#ApexTrigger')[0].checked)
+              getApexTriggerList();
+          if($('#ApexPage')[0].checked)
+              getApexPageList();
+          //getLayoutList();
+      }
+      
+      function getApexClassList(){
+          $.ajax({
+                 url: 'https://' + window.location.hostname+'/services/data/v42.0/query?q='+'select+name+from+ApexClass+where+Namespaceprefix+=' + '\'' + '\'' ,
+                 type: "GET",
+                 beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                 success: function(data) {
+                    numberOfIterations+=data.records.length;
+                     for(var i=0; i< data.records.length;i++){
+                         var x = data.records[i].Name ;
+                         getApexClassDetails(x);
+                     }                 }
+          });
+      }    
+      
+      function getApexClassDetails(apexCls){
+          var fieldListToFind = $('#fieldAPiNames').val().toLowerCase().trim().split(',');
+          apexCls = apexCls.split(' ').join('+');
+           $.ajax({
+                     url: 'https://' + window.location.hostname+'/services/data/v42.0/query?q=SELECT+Name,body+FROM+ApexClass+WHERE+Name=\''+ apexCls+'\'',
+                     type: "GET",
+                     beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                     success: function(data) {
+                         for(var x=0; x < fieldListToFind.length;x++ ){
+                             var pattern = new RegExp("(^|\\W)" + fieldListToFind[x] + "($|\\W)");
+                            var location = JSON.stringify(data).toLowerCase().match(pattern);
+                             if (location != null) {
+                                 $('#resultsTable').append('<tr class="data"><td>'+fieldListToFind[x] + '</td><td>'+apexCls+'</td><td>Apex Class</td></tr>');
+                                 console.log('Found--' + apexCls+ '???' + fieldListToFind[x] );
+                             }
+                         }
+                         numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+                     },
+                      error: function(error) { 
+                            console.log(error);
+                            numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+                    } 
+              });   
+      }
+      
+      function getApexTriggerList(){
+          $.ajax({
+                 url: 'https://' + window.location.hostname+'/services/data/v42.0/query?q='+'select+name+from+ApexTrigger+where+Namespaceprefix+=' + '\'' + '\'' ,
+                 type: "GET",
+                 beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                 success: function(data) {
+                    numberOfIterations+=data.records.length;
+                     for(var i=0; i< data.records.length;i++){
+                         var x = data.records[i].Name ;
+                         getApexTriggerDetails(x);
+                     }
+                 }
+          });
+      }    
+      
+      function getApexTriggerDetails(apexTrg){
+          var fieldListToFind = $('#fieldAPiNames').val().toLowerCase().trim().split(',');
+          apexTrg = apexTrg.split(' ').join('+');
+           $.ajax({
+                     url: 'https://' + window.location.hostname+'/services/data/v42.0/query?q=SELECT+Name,body+FROM+ApexTrigger+WHERE+Name=\''+ apexTrg+'\'',
+                     type: "GET",
+                     beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                     success: function(data) {
+                         for(var x=0; x < fieldListToFind.length;x++ ){
+                            var pattern = new RegExp("(^|\\W)" + fieldListToFind[x] + "($|\\W)");
+                            var location = JSON.stringify(data).toLowerCase().match(pattern);
+                             if (location != null) {
+                                 $('#resultsTable').append('<tr class="data"><td>'+fieldListToFind[x] + '</td><td>'+apexTrg+'</td><td>Apex Trigger</td></tr>');
+                                 console.log('Found--' + apexTrg+ '???' + fieldListToFind[x] );
+                             }
+                         }
+                         numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+                     },
+                      error: function(error) { 
+                            console.log(error);
+                            numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+                    } 
+              });   
+      }
+      
+      function getApexPageList(){
+          $.ajax({
+                 url: 'https://' + window.location.hostname+'/services/data/v42.0/query?q='+'select+name+from+ApexPage+where+Namespaceprefix+=' + '\'' + '\'' ,
+                 type: "GET",
+                 beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                 success: function(data) {
+                    numberOfIterations+=data.records.length;
+                     for(var i=0; i< data.records.length;i++){
+                         var x = data.records[i].Name ;
+                         getApexPageDetails(x);
+                     }
+                 }
+          });
+      }    
+      
+      function getApexPageDetails(apexPag){
+          var fieldListToFind = $('#fieldAPiNames').val().toLowerCase().trim().split(',');
+          apexPag = apexPag.split(' ').join('+');
+           $.ajax({
+                     url: 'https://' + window.location.hostname+'/services/data/v42.0/query?q=SELECT+Name,Markup+FROM+ApexPage+WHERE+Name=\''+ apexPag+'\'',
+                     type: "GET",
+                     beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                     success: function(data) {
+                         for(var x=0; x < fieldListToFind.length;x++ ){
+                             var pattern = new RegExp("(^|\\W)" + fieldListToFind[x] + "($|\\W)");
+                            var location = JSON.stringify(data).toLowerCase().match(pattern);
+                             if (location != null) {
+                                 $('#resultsTable').append('<tr class="data"><td>'+fieldListToFind[x] + '</td><td>'+apexPag+'</td><td>Apex Page</td></tr>');
+                                 console.log('Found--' + apexPag+ '???' + fieldListToFind[x] );
+                             }
+                         }
+                         numberOfIterations--;
+                    if(numberOfIterations===0)
+                        $('#spinnerIcon').hide(); 
+                     },
+                      error: function(error) { 
+                            console.log(error);
+                            numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+                    } 
+              });   
+      }
+      
+      function getLayoutList(){
+          $.ajax({
+                 url: 'https://' + window.location.hostname+'/services/data/v42.0/tooling/query?q='+'select+name+from+layout+where+TableEnumOrId+=' + '\'' + $('#objectList').val()  + '\'' ,
+                 type: "GET",
+                 beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                 success: function(data) {
+                     for(var i=0; i< data.records.length;i++){
+                         var x = data.records[i].Name ;
+                         getLayoutDetails(x);
+                     }
+                     $('#spinnerIcon').hide(); 
+                 }
+          });
+      }
+      
+      function getLayoutDetails(layoutName){
+          var fieldListToFind = $('#fieldAPiNames').val().toLowerCase().trim().split(',');
+          layoutName = layoutName.split(' ').join('+');
+           $.ajax({
+                     url: 'https://' + window.location.hostname+'/services/data/v41.0/tooling/query?q='+'select+name,metadata+from+layout+where+name+=\''  + layoutName+  '\'' + '+AND+ TableEnumOrId=' + '\'' + $('#objectList').val()+ '\'',
+                     type: "GET",
+                     beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+                     success: function(data) {
+                         for(var x=0; x < fieldListToFind.length;x++ ){
+                             var pattern = new RegExp("(^|\\W)" + fieldListToFind[x] + "($|\\W)");
+                            var location = JSON.stringify(data).toLowerCase().match(pattern);
+                             if (location != null) {
+                                 $('#resultsTable').append('<tr class="data"><td>'+fieldListToFind[x] + '</td><td>'+layoutName+'</td><td>Layout Name</td></tr>');
+                                 console.log('Found--' + layoutName+ '???' + fieldListToFind[x] );
+                             }
+                         }
+                     },
+                      error: function(error) { 
+                            console.log(error);
+                    } 
+              });   
+      }
+      function getMetaDataList(objHtmlTagData){
+          $.ajax({
+              url: 'https://'+ window.location.hostname+objHtmlTagData.dataset.listquery + (objHtmlTagData.dataset.filter ? ('\''+$('#objectList').val()+'\'') : '') ,
+              type: "GET",
+              beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+              success: function(data) {
+                  numberOfIterations+=data.records.length;
+                  for(var i=0; i< data.records.length;i++){
+                      getIndividualDetails(data.records[i].Id,objHtmlTagData);
+                  }
+              }
+          });
+      }
+      
+      function getIndividualDetails(metadataId,objHtmlTagData){
+          var fieldListToFind = $('#fieldAPiNames').val().toLowerCase().trim().split(',');
+          metadataId = metadataId.split(' ').join('+');
+          $.ajax({
+              url: 'https://' + window.location.hostname+objHtmlTagData.dataset.individualquery + '\'' + metadataId + '\'' + (objHtmlTagData.dataset.filter ? (objHtmlTagData.dataset.filter + '\'' + $('#objectList').val()+ '\'') : ''),
+              type: "GET",
+              beforeSend: function(xhr){xhr.setRequestHeader('Authorization', 'Bearer ' + access_token)},
+              success: function(data) {
+                  console.log(data);
+                  let strMeta = JSON.stringify(data).toLowerCase();
+                  for(var x=0; x < fieldListToFind.length;x++ ){
+                      if(strMeta.indexOf("\""+fieldListToFind[x]+"\"") > -1 || strMeta.indexOf("."+fieldListToFind[x]) > -1){
+                          $('#resultsTable').append('<tr class="data"><td>'+fieldListToFind[x] + '</td><td>'+data.records[0].FullName +'</td><td>'+objHtmlTagData.name+'</td></tr>');
+                          console.log('Found--' + metadataId+ '???' + fieldListToFind[x] );
+                      }
+                  }
+                  numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+              },
+              error: function(error) { 
+                  console.log(error);
+                  numberOfIterations--;
+                  if(numberOfIterations===0)
+                      $('#spinnerIcon').hide(); 
+              } 
+          });   
+      }
+      
+      function nullifyFilter(){
+          let objTag = $('#ValidationRule')[0];
+          if(event.target.checked){
+              objTag.dataset.filter='';
+              objTag.dataset.listquery=objTag.dataset.listquery.replace(objTag.dataset.listqueryfilter,'');
+          }
+          else{
+              objTag.dataset.filter=objTag.dataset.individualqueryfilter;
+              objTag.dataset.listquery=objTag.dataset.listquery+objTag.dataset.listqueryfilter;
+          }
+      }
+   </script>
+</apex:page>
