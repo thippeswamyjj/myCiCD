@@ -3,7 +3,7 @@
    <table>
       <tr>
          <th>
-            Object Name
+            Object Name T
          </th>
          <th>
             <select id="objectList"></select>
