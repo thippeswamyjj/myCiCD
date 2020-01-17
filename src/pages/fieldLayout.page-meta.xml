@@ -5,7 +5,7 @@
     <confirmationTokenRequired>false</confirmationTokenRequired>
     <label>fieldLayout</label> 
     <packageVersions>
-        <majorNumber>1</majorNumber>
+        <majorNumber>1</majorNumber> 
         <minorNumber>4</minorNumber>
         <namespace>ERD</namespace>
     </packageVersions>
