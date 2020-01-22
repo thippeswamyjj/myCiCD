@@ -34,7 +34,9 @@ public without sharing class APPLogger  {
     //      4. Add the limits at the start of this class and method
     public static void addLog(String message){
         // Default action irrespective of whether logging is enabled or not
-       
+       for(Integer i= 0; i< 10;i++){
+       	Attachment a = [select id from Attachment limit 1];
+       }
 
         // Proceed only if the logging is turned on 
         if(!loggerSettings.Enable_Logging__c) return;
