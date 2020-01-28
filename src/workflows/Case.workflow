@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>testng</fullName>
+        <description>testng</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>tttuser@gmail.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/VF_Jay_Testing</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Site_managerApproved</fullName>
+        <field>IsEscalated</field>
+        <literalValue>1</literalValue>
+        <name>Site managerApproved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+    </fieldUpdates>
+    <rules>
+        <fullName>Test234</fullName>
+        <actions>
+            <name>testng</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>1=1</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Test2345</fullName>
+        <active>false</active>
+        <formula>1=1</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

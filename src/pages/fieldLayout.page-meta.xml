@@ -3,9 +3,9 @@
     <apiVersion>47.0</apiVersion>
     <availableInTouch>false</availableInTouch>
     <confirmationTokenRequired>false</confirmationTokenRequired>
-    <label>fieldLayout</label> 
+    <label>fieldLayout</label>
     <packageVersions>
-        <majorNumber>1</majorNumber> 
+        <majorNumber>1</majorNumber>
         <minorNumber>4</minorNumber>
         <namespace>ERD</namespace>
     </packageVersions>

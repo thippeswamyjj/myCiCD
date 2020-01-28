@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Holds 1 Alexa Skill configuration</description>
+    <fields>
+        <fullName>alexaforce__Alexa_Host__c</fullName>
+        <defaultValue>&quot;s3.amazonaws.com&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used in security checks, which are required for certification. Will check the request&apos;s host and match it with the configured host.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Used in security checks, which are required for certification. Will check the request&apos;s host and match it with the configured host.</inlineHelpText>
+        <label>Alexa Host</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Alexa_Path__c</fullName>
+        <defaultValue>&quot;/echo.api/&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used in security checks, which are required for certification. Will check the request&apos;s path and match it with the configured path.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Used in security checks, which are required for certification. Will check the request&apos;s path and match it with the configured path.</inlineHelpText>
+        <label>Alexa Path</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Alexa_Port__c</fullName>
+        <defaultValue>443</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Used in security checks, which are required for certification. Will check the request&apos;s port and match it with the configured port.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Used in security checks, which are required for certification. Will check the request&apos;s port and match it with the configured port.</inlineHelpText>
+        <label>Alexa Port</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Apex_Class_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Name of the APEX class that contains the implementation of AlexaForce for handling this skill. Must be in the default namespace, e.g. cannot be from another managed package</description>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Name of the APEX class that contains the implementation of AlexaForce for handling this skill. Must be in the default namespace, e.g. cannot be from another managed package</inlineHelpText>
+        <label>Apex Class Name</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Application_Id__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>The Application Id for your skill as found in the Amazon developer portal</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The Application Id for your skill as found in the Amazon developer portal</inlineHelpText>
+        <label>Application Id</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Debug_Mode__c</fullName>
+        <defaultValue>false</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Run this skill in Debug Mode. This will create AlexaForce_Log__c records containing request, handling and response data</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Run this skill in Debug Mode. This will create AlexaForce_Log__c records containing request, handling and response data</inlineHelpText>
+        <label>Debug Mode</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Is_Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Only an active skill will be executed by AlexaForce. Unconfigured or inactive skills will return status 400 to alexa</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Only an active skill will be executed by AlexaForce. Unconfigured or inactive skills will return status 400 to alexa</inlineHelpText>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Perform_Security_Checks__c</fullName>
+        <defaultValue>true</defaultValue>
+        <deprecated>false</deprecated>
+        <description>Required for certification of an Alexa Skill. Uses a REST endpoint that implements the validation. The endpoint must also be configured if this checkbox is selected (Request Verification Endpoint)</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Required for certification of an Alexa Skill. Uses a REST endpoint that implements the validation. The endpoint must also be configured if this checkbox is selected (Request Verification Endpoint)</inlineHelpText>
+        <label>Perform Security Checks</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Request_Verification_Endpoint__c</fullName>
+        <defaultValue>&quot;https://alexa-verifier.herokuapp.com/verify&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The endpoint that hosts the REST service that accepts Alexa&apos;s headers and request body, executes validation on it and returns &quot;true&quot; if valid</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The endpoint that hosts the REST service that accepts Alexa&apos;s headers and request body, executes validation on it and returns &quot;true&quot; if valid</inlineHelpText>
+        <label>Request Verification Endpoint</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__User_Id_Endpoint__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Required if your skill requires account linking. This endpoint resides at /services/oauth2/userinfo on your Salesforce domain. Must use full path, including https://</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Required if your skill requires account linking. This endpoint resides at /services/oauth2/userinfo on your Salesforce domain. Must use full path, including https://</inlineHelpText>
+        <label>User Id Endpoint</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>alexaforce__Verify_Token_Provider__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Used as Bearer when calling the verification endpoint</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Used as Bearer when calling the verification endpoint</inlineHelpText>
+        <label>Verify Token Provider</label>
+        <referenceTo>alexaforce__Token_Provider__mdt</referenceTo>
+        <relationshipLabel>Alexa Skills</relationshipLabel>
+        <relationshipName>Alexa_Skills</relationshipName>
+        <required>false</required>
+        <type>MetadataRelationship</type>
+        <unique>false</unique>
+    </fields>
+    <label>Alexa Skill</label>
+    <pluralLabel>Alexa Skills</pluralLabel>
+    <validationRules>
+        <fullName>alexaforce__Security_Checks_Validation</fullName>
+        <active>true</active>
+        <description>Checks the mandatory fields in case security checks are enabled</description>
+        <errorConditionFormula>AND(alexaforce__Perform_Security_Checks__c, 
+OR(ISBLANK( alexaforce__Request_Verification_Endpoint__c),ISBLANK(alexaforce__Alexa_Host__c),ISBLANK( alexaforce__Alexa_Path__c ), ISBLANK( alexaforce__Alexa_Port__c ))
+)</errorConditionFormula>
+        <errorDisplayField>alexaforce__Perform_Security_Checks__c</errorDisplayField>
+        <errorMessage>Request Verification Endpoint, Alexa Host, Alexa Port and Alexa Path are mandatory for performing security checks</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>
