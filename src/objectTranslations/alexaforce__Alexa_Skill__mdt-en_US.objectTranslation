@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Used in security checks, which are required for certification. Will check the request&apos;s host and match it with the configured host. --></help>
+        <label><!-- Alexa Host --></label>
+        <name>alexaforce__Alexa_Host__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in security checks, which are required for certification. Will check the request&apos;s path and match it with the configured path. --></help>
+        <label><!-- Alexa Path --></label>
+        <name>alexaforce__Alexa_Path__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used in security checks, which are required for certification. Will check the request&apos;s port and match it with the configured port. --></help>
+        <label><!-- Alexa Port --></label>
+        <name>alexaforce__Alexa_Port__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the APEX class that contains the implementation of AlexaForce for handling this skill. Must be in the default namespace, e.g. cannot be from another managed package --></help>
+        <label><!-- Apex Class Name --></label>
+        <name>alexaforce__Apex_Class_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Application Id for your skill as found in the Amazon developer portal --></help>
+        <label><!-- Application Id --></label>
+        <name>alexaforce__Application_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Run this skill in Debug Mode. This will create AlexaForce_Log__c records containing request, handling and response data --></help>
+        <label><!-- Debug Mode --></label>
+        <name>alexaforce__Debug_Mode__c</name>
+    </fields>
+    <fields>
+        <help><!-- Only an active skill will be executed by AlexaForce. Unconfigured or inactive skills will return status 400 to alexa --></help>
+        <label><!-- Is Active --></label>
+        <name>alexaforce__Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Required for certification of an Alexa Skill. Uses a REST endpoint that implements the validation. The endpoint must also be configured if this checkbox is selected (Request Verification Endpoint) --></help>
+        <label><!-- Perform Security Checks --></label>
+        <name>alexaforce__Perform_Security_Checks__c</name>
+    </fields>
+    <fields>
+        <help><!-- The endpoint that hosts the REST service that accepts Alexa&apos;s headers and request body, executes validation on it and returns &quot;true&quot; if valid --></help>
+        <label><!-- Request Verification Endpoint --></label>
+        <name>alexaforce__Request_Verification_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help><!-- Required if your skill requires account linking. This endpoint resides at /services/oauth2/userinfo on your Salesforce domain. Must use full path, including https:// --></help>
+        <label><!-- User Id Endpoint --></label>
+        <name>alexaforce__User_Id_Endpoint__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used as Bearer when calling the verification endpoint --></help>
+        <label><!-- Verify Token Provider --></label>
+        <name>alexaforce__Verify_Token_Provider__c</name>
+        <relationshipLabel><!-- Alexa Skills --></relationshipLabel>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Request Verification Endpoint, Alexa Host, Alexa Port and Alexa Path are mandatory for performing security checks --></errorMessage>
+        <name>alexaforce__Security_Checks_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>
