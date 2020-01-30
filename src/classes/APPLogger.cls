@@ -41,6 +41,7 @@ public without sharing class APPLogger  {
 
         // Get the class and method name
         String key = getClassAndMethodName();
+        //jammy is here
 
         // If this is the very first call to logging in this transaction then the expectation is that saveLog will be called in the same calling function
         if(String.isEmpty(firstMethod)) { 
