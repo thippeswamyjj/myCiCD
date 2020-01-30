@@ -39,7 +39,7 @@ public without sharing class APPLogger  {
         // Proceed only if the logging is turned on 
         if(!loggerSettings.Enable_Logging__c) return;
 
-        // Get the class and method name
+        // Get the class and method name and name
         String key = getClassAndMethodName();
         //jammy is here
 
