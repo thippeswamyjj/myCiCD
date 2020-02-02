@@ -32,6 +32,7 @@ public without sharing class APPLogger  {
     //      2. Add the passed message string to the map along with the time stamp
     //      3. Add the stack trace corresponding to this class and method
     //      4. Add the limits at the start of this class and method
+    //5. james
     public static void addLog(String message){
         // Default action irrespective of whether logging is enabled or not
        
