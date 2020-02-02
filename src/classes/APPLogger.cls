@@ -16,7 +16,7 @@
 */
 public without sharing class APPLogger  { 
     // Variable declarations
-    private final   static String CONS_LINEBREAK    = '\n';
+    private final   static String CONS_LINEBREAK     = '\n';
     private         static String firstMethod       = '';                                   // When the first call to addLog is made, this variable is set. Used in saveLog method
     private         static String prevMethod        = '';                                   // When Class A calls Class B and the control goes back to Class A, the logging should be separate comments even though the key is same i.e. Class A
     private         static Map<String, Integer> keyVsCounter= new Map<String, Integer>();
@@ -39,8 +39,9 @@ public without sharing class APPLogger  {
         // Proceed only if the logging is turned on 
         if(!loggerSettings.Enable_Logging__c) return;
 
-        // Get the class and method name
+        // Get the class and method name and name
         String key = getClassAndMethodName();
+        //jammy is here
 
         // If this is the very first call to logging in this transaction then the expectation is that saveLog will be called in the same calling function
         if(String.isEmpty(firstMethod)) { 
