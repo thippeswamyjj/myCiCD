@@ -14,7 +14,7 @@
 * The primary purpose of this artifact is just to share the knowledge and our own experience. Nothing more, nothing less. 
 * Use this approach at your own risk
 */
-public without sharing class APPLogger  {
+public without sharing class APPLogger  { 
     // Variable declarations
     private final   static String CONS_LINEBREAK    = '\n';
     private         static String firstMethod       = '';                                   // When the first call to addLog is made, this variable is set. Used in saveLog method
@@ -41,7 +41,6 @@ public without sharing class APPLogger  {
 
         // Get the class and method name
         String key = getClassAndMethodName();
-        //jammy is here
 
         // If this is the very first call to logging in this transaction then the expectation is that saveLog will be called in the same calling function
         if(String.isEmpty(firstMethod)) { 
