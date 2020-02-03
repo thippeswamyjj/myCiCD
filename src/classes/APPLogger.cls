@@ -17,7 +17,7 @@
 public without sharing class APPLogger  { 
     // Variable declarations
     private final   static String CONS_LINEBREAK     = '\n';
-    private         static String firstMethod       = '';                                   // When the first call to addLog is made, this variable is set. Used in saveLog method
+    private         static String firstMethod       = '';                                   // When the f irst call to addLog is made, this variable is set. Used in saveLog method
     private         static String prevMethod        = '';                                   // When Class A calls Class B and the control goes back to Class A, the logging should be separate comments even though the key is same i.e. Class A
     private         static Map<String, Integer> keyVsCounter= new Map<String, Integer>();
     private         static List<Map<String, String>> keyVsLogsList = new List<Map<String, String>>();
@@ -33,8 +33,8 @@ public without sharing class APPLogger  {
     //      3. Add the stack trace corresponding to this class and method
     //      4. Add the limits at the start of this class and method
     //5. james
-    public static void addLog(String message){
-        // Default action irrespective of whether logging is enabled or not
+    public static void addLog(String message){ 
+        // Default action irrespective of whether logging is enabled or not j
        
 
         // Proceed only if the logging is turned on 
