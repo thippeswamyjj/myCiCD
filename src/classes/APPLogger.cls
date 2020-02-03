@@ -14,10 +14,10 @@
 * The primary purpose of this artifact is just to share the knowledge and our own experience. Nothing more, nothing less. 
 * Use this approach at your own risk
 */
-public without sharing class APPLogger  {
+public without sharing class APPLogger  { 
     // Variable declarations
     private final   static String CONS_LINEBREAK     = '\n';
-    private         static String firstMethod       = '';                                   // When the first call to addLog is made, this variable is set. Used in saveLog method
+    private         static String firstMethod       = '';                                   // When the f irst call to addLog is made, this variable is set. Used in saveLog method
     private         static String prevMethod        = '';                                   // When Class A calls Class B and the control goes back to Class A, the logging should be separate comments even though the key is same i.e. Class A
     private         static Map<String, Integer> keyVsCounter= new Map<String, Integer>();
     private         static List<Map<String, String>> keyVsLogsList = new List<Map<String, String>>();
