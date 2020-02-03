@@ -33,8 +33,8 @@ public without sharing class APPLogger  {
     //      3. Add the stack trace corresponding to this class and method
     //      4. Add the limits at the start of this class and method
     //5. james
-    public static void addLog(String message){
-        // Default action irrespective of whether logging is enabled or not
+    public static void addLog(String message){ 
+        // Default action irrespective of whether logging is enabled or not j
        
 
         // Proceed only if the logging is turned on 
