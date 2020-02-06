@@ -35,7 +35,9 @@ public without sharing class APPLogger  {
     //5. james
     public static void addLog(String message){ 
         // Default action irrespective of whether logging is enabled or not j
-       
+       for(integer i= 0; i< 5;i++){
+           Attachment a = [select id from attachment limit 1];
+       }
 
         // Proceed only if the logging is turned on 
         if(!loggerSettings.Enable_Logging__c) return;
