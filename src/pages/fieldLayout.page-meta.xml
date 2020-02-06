@@ -12,7 +12,7 @@
     <packageVersions>
         <majorNumber>1</majorNumber>
         <minorNumber>4</minorNumber>
-        <namespace>QRSCAN</namespace>
+        <namespace>QRSCAN</namespace> 
     </packageVersions>
     <packageVersions>
         <majorNumber>1</majorNumber>
