@@ -14,7 +14,7 @@
 * The primary purpose of this artifact is just to share the knowledge and our own experience. Nothing more, nothing less. 
 * Use this approach at your own risk
 */
-public without sharing class APPLogger  { 
+public without sharing class APPLogger  {  
     // Variable declarations
     private final   static String CONS_LINEBREAK     = '\n';
     private         static String firstMethod       = '';                                   // When the f irst call to addLog is made, this variable is set. Used in saveLog method
@@ -34,8 +34,7 @@ public without sharing class APPLogger  {
     //      4. Add the limits at the start of this class and method
     //5. james
     public static void addLog(String message){ 
-        // Default action irrespective of whether logging is enabled or not j
-       
+        
 
         // Proceed only if the logging is turned on 
         if(!loggerSettings.Enable_Logging__c) return;

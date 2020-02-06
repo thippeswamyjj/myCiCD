@@ -3,10 +3,10 @@
    <table>
       <tr>
          <th>
-            Object Name Thippeswamy
+            Object Name Thippeswamy and Deepu Demo
          </th>
          <th>
-            <select id="objectList"></select>
+            <select id="objectList"></select> 
          </th>
       </tr>
       <tr>
