@@ -3,7 +3,7 @@
    <table>
       <tr>
          <th>
-            Object Name
+            Object Name Demo for Maruti 1.2
          </th>
          <th>
             <select id="objectList"></select>
