@@ -1,0 +1,42 @@
+{
+    "validationRule": null,
+    "SFMTargetMan": null,
+    "servicemaxTags": null,
+    "procNodeObject": null,
+    "pageLayoutId": null,
+    "objectMapping": [
+      {
+        "SFMProcBusObj": {
+          "attributes": {
+            "type": "SVMXC__ServiceMax_Processes__c",
+            "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-03315"
+          },
+          "Id": "SMAX_Process-03315",
+          "ESMX_External_ID__c": "SMAX_Process-03315",
+          "SVMXC__Active__c": false,
+          "SVMXC__Allow_Override__c": false,
+          "SVMXC__APL_Allow_Partial_Delivery__c": false,
+          "SVMXC__APL_Allow_Partial_Shipment__c": false,
+          "SVMXC__Calendar_End_Type__c": "Next Day",
+          "SVMXC__Capture_Log__c": false,
+          "SVMXC__APL_Create_Internal_RMA__c": false,
+          "SVMXC__APL_Create_Supplier_RMA__c": false,
+          "SVMXC__Default_On__c": false,
+          "SVMXC__Description__c": "SFM Wizard for Grouping Location Based PM Work Orders",
+          "SVMXC__Dispatch_Process_Status__c": "Complete",
+          "RecordTypeId": "Wizard",
+          "RecordType": {
+            "attributes": {
+              "type": "RecordType",
+              "url": "/services/data/v48.0/sobjects/RecordType/Wizard"
+            },
+            "Name": "Wizard",
+            "Id": "Wizard"
+          }
+        },
+        "Servicemaxconfig": null
+      }
+    ],
+    "mainPageLay": null,
+    "lookUpConfig": null
+  }

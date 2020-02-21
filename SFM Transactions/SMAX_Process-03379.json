@@ -1,0 +1,423 @@
+{
+    "validationRule": null,
+    "SFMTargetMan": {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Processes__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-03379"
+      },
+      "Id": "SMAX_Process-03379",
+      "ESMX_External_ID__c": "SMAX_Process-03379",
+      "RecordTypeId": "Target Manager",
+      "SVMXC__Name__c": "Debrief Work Order Diagnostics PM",
+      "SVMXC__ProcessID__c": "ESMX_Debrief_Work_Order_Diagnostics_PM_LocationPM",
+      "SVMXC__Page_Layout__c": "Page_layout-00357",
+      "SVMXC__Purpose__c": "STANDALONE EDIT",
+      "SVMXC__Record_Type_Name__c": "Target Manager",
+      "SVMXC__Active__c": false,
+      "SVMXC__Allow_Override__c": false,
+      "SVMXC__APL_Allow_Partial_Delivery__c": false,
+      "SVMXC__APL_Allow_Partial_Shipment__c": false,
+      "SVMXC__Calendar_End_Type__c": "Next Day",
+      "SVMXC__Capture_Log__c": false,
+      "SVMXC__APL_Create_Internal_RMA__c": false,
+      "SVMXC__APL_Create_Supplier_RMA__c": false,
+      "SVMXC__Default_On__c": false,
+      "SVMXC__Description__c": "This SFM transaction is used to debrief diganostics on in a work order. This is typically used at the end of the resolution, before the work order is closed and when event type equals preventative maintaince.",
+      "SVMXC__Dispatch_Process_Status__c": "Complete",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/Target Manager"
+        },
+        "Name": "Target Manager",
+        "Id": "Target Manager"
+      }
+    },
+    "servicemaxTags": null,
+    "procNodeObject": [
+      {
+        "Submodule": null,
+        "proBusRulLst": [],
+        "parObjNode": null,
+        "module": null
+      },
+      {
+        "Submodule": null,
+        "proBusRulLst": [
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00245"
+              },
+              "Id": "SMAX_Process-00245",
+              "ESMX_External_ID__c": "SMAX_Process-00245",
+              "SVMXC__Process2__c": "SMAX_Process-00240",
+              "SVMXC__Process3__c": "SMAX_Process-02975",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00246"
+              },
+              "Id": "SMAX_Process-00246",
+              "ESMX_External_ID__c": "SMAX_Process-00246",
+              "SVMXC__Process2__c": "SMAX_Process-00240",
+              "SVMXC__Process3__c": "SMAX_Process-02886",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00247"
+              },
+              "Id": "SMAX_Process-00247",
+              "ESMX_External_ID__c": "SMAX_Process-00247",
+              "SVMXC__Process2__c": "SMAX_Process-00240",
+              "SVMXC__Process3__c": "SMAX_Process-02980",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00248"
+              },
+              "Id": "SMAX_Process-00248",
+              "ESMX_External_ID__c": "SMAX_Process-00248",
+              "SVMXC__Process2__c": "SMAX_Process-00240",
+              "SVMXC__Process3__c": "SMAX_Process-03387",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          }
+        ],
+        "parObjNode": null,
+        "module": null
+      },
+      {
+        "Submodule": null,
+        "proBusRulLst": [
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00249"
+              },
+              "Id": "SMAX_Process-00249",
+              "ESMX_External_ID__c": "SMAX_Process-00249",
+              "SVMXC__Process2__c": "SMAX_Process-00241",
+              "SVMXC__Process3__c": "SMAX_Process-02979",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00250"
+              },
+              "Id": "SMAX_Process-00250",
+              "ESMX_External_ID__c": "SMAX_Process-00250",
+              "SVMXC__Process2__c": "SMAX_Process-00241",
+              "SVMXC__Process3__c": "SMAX_Process-02987",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00255"
+              },
+              "Id": "SMAX_Process-00255",
+              "ESMX_External_ID__c": "SMAX_Process-00255",
+              "SVMXC__Process2__c": "SMAX_Process-00241",
+              "SVMXC__Process3__c": "SMAX_Process-03391",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Linked Process",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Linked Process"
+                },
+                "Name": "Linked Process",
+                "Id": "Linked Process"
+              }
+            }
+          }
+        ],
+        "parObjNode": null,
+        "module": null
+      },
+      {
+        "Submodule": null,
+        "proBusRulLst": [
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00251"
+              },
+              "Id": "SMAX_Process-00251",
+              "ESMX_External_ID__c": "SMAX_Process-00251",
+              "SVMXC__Process2__c": "SMAX_Process-00242",
+              "SVMXC__Process3__c": "SMAX_Process-02976",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00252"
+              },
+              "Id": "SMAX_Process-00252",
+              "ESMX_External_ID__c": "SMAX_Process-00252",
+              "SVMXC__Process2__c": "SMAX_Process-00242",
+              "SVMXC__Process3__c": "SMAX_Process-02977",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00253"
+              },
+              "Id": "SMAX_Process-00253",
+              "ESMX_External_ID__c": "SMAX_Process-00253",
+              "SVMXC__Process2__c": "SMAX_Process-00242",
+              "SVMXC__Process3__c": "SMAX_Process-03388",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          },
+          {
+            "Process3": null,
+            "proBusRule": {
+              "attributes": {
+                "type": "SVMXC__ServiceMax_Processes__c",
+                "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-00254"
+              },
+              "Id": "SMAX_Process-00254",
+              "ESMX_External_ID__c": "SMAX_Process-00254",
+              "SVMXC__Process2__c": "SMAX_Process-00242",
+              "SVMXC__Process3__c": "SMAX_Process-03389",
+              "SVMXC__Active__c": false,
+              "SVMXC__Allow_Override__c": false,
+              "SVMXC__APL_Allow_Partial_Delivery__c": false,
+              "SVMXC__APL_Allow_Partial_Shipment__c": false,
+              "SVMXC__Calendar_End_Type__c": "Next Day",
+              "SVMXC__Capture_Log__c": false,
+              "SVMXC__APL_Create_Internal_RMA__c": false,
+              "SVMXC__APL_Create_Supplier_RMA__c": false,
+              "SVMXC__Default_On__c": false,
+              "RecordTypeId": "Process Business Rule",
+              "RecordType": {
+                "attributes": {
+                  "type": "RecordType",
+                  "url": "/services/data/v48.0/sobjects/RecordType/Process Business Rule"
+                },
+                "Name": "Process Business Rule",
+                "Id": "Process Business Rule"
+              }
+            }
+          }
+        ],
+        "parObjNode": null,
+        "module": null
+      },
+      {
+        "Submodule": null,
+        "proBusRulLst": [],
+        "parObjNode": null,
+        "module": null
+      },
+      {
+        "Submodule": null,
+        "proBusRulLst": [],
+        "parObjNode": null,
+        "module": null
+      }
+    ],
+    "pageLayoutId": "Page_layout-00357",
+    "objectMapping": null,
+    "mainPageLay": null,
+    "lookUpConfig": null
+  }
