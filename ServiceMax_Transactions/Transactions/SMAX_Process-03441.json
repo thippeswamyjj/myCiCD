@@ -1,4 +1,5 @@
 {
+  "SFMTransactionConfigData": [],
   "SFMTargetMan": {
     "attributes": {
       "type": "SVMXC__ServiceMax_Processes__c",
@@ -88,6 +89,7 @@
   },
   "procNodeObject": [
     {
+      "procNodeObjConfigData": null,
       "ProcessNodeObject": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
@@ -189,6 +191,7 @@
       "proBusRulLst": null
     },
     {
+      "procNodeObjConfigData": null,
       "ProcessNodeObject": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
@@ -625,6 +628,7 @@
       ]
     },
     {
+      "procNodeObjConfigData": null,
       "ProcessNodeObject": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
@@ -1061,6 +1065,7 @@
       ]
     },
     {
+      "procNodeObjConfigData": null,
       "ProcessNodeObject": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
@@ -1495,6 +1500,7 @@
       ]
     },
     {
+      "procNodeObjConfigData": null,
       "ProcessNodeObject": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
