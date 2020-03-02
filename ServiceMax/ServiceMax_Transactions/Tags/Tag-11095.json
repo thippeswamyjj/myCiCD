@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11095"
+  },
+  "Id": "Tag-11095",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "DATA_VALIDATION_RULE_MESSAGE",
+  "SVMXC__Tag_Key__c": "PLEASE_CHECK_THAT_YOU_HAVE_ADDED_AN_ACTIVITY_WITH_TYPE_‘PROBLEM_DESCRIPTION_BY_ENGINEER’._PLEASE_RETURN_TO_THE_WORK_ORDER_AND_UPDATE.",
+  "SVMXC__Tag_Text__c": "Please check that you have added an Activity with type ‘Problem Description by Engineer’. Please return to the work order and update.",
+  "SVMXC__Tag_Value__c": "Please check that you have added an Activity with type ‘Problem Description by Engineer’. Please return to the work order and update.",
+  "ESMX_External_ID__c": "Tag-11095",
+  "Name": "Tag-11095"
+}

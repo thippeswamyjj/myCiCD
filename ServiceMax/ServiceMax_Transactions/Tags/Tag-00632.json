@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-00632"
+  },
+  "Id": "Tag-00632",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "zh_TW",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "WORK_ORDER",
+  "SVMXC__Tag_Text__c": "工單",
+  "SVMXC__Tag_Value__c": "工單",
+  "ESMX_External_ID__c": "Tag-00632",
+  "Name": "Tag-00632"
+}

@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-10099"
+  },
+  "Id": "Tag-10099",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "zh_CN",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION",
+  "SVMXC__Tag_Text__c": "此记录不符合此 SFM 事务的资格条件",
+  "SVMXC__Tag_Value__c": "此记录不符合此 SFM 事务的资格条件",
+  "ESMX_External_ID__c": "Tag-10099",
+  "Name": "Tag-10099"
+}

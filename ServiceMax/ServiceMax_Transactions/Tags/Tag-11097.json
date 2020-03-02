@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11097"
+  },
+  "Id": "Tag-11097",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "DATA_VALIDATION_RULE_MESSAGE",
+  "SVMXC__Tag_Key__c": "PLEASE_CONFIM_WHETHER_THE_CHECKLIST_IS_COMPLETED_IN_PA_TOOL.",
+  "SVMXC__Tag_Text__c": "Please confim whether the Checklist is completed in PA Tool.",
+  "SVMXC__Tag_Value__c": "Please confim whether the Checklist is completed in PA Tool.",
+  "ESMX_External_ID__c": "Tag-11097",
+  "Name": "Tag-11097"
+}

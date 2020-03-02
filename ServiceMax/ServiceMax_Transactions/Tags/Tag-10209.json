@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-10209"
+  },
+  "Id": "Tag-10209",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "ko",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION",
+  "SVMXC__Tag_Text__c": "이 레코드는 이 SFM 거래에 대한 자격 기준을 충족하지 않습니다.",
+  "SVMXC__Tag_Value__c": "이 레코드는 이 SFM 거래에 대한 자격 기준을 충족하지 않습니다.",
+  "ESMX_External_ID__c": "Tag-10209",
+  "Name": "Tag-10209"
+}

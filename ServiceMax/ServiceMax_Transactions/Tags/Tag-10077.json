@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-10077"
+  },
+  "Id": "Tag-10077",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "fi",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION",
+  "SVMXC__Tag_Text__c": "Tietue ei täytä tämän SFM-tapahtuman kelpoisuusehtoja",
+  "SVMXC__Tag_Value__c": "Tietue ei täytä tämän SFM-tapahtuman kelpoisuusehtoja",
+  "ESMX_External_ID__c": "Tag-10077",
+  "Name": "Tag-10077"
+}

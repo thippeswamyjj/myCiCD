@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11090"
+  },
+  "Id": "Tag-11090",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "SFM_PROCESS_NAME",
+  "SVMXC__Tag_Key__c": "ESMX_DEBRIEF_WORK_ORDER_DIAGNOSTICS_INCIDENT_DEPLOYTEST1",
+  "SVMXC__Tag_Text__c": "ESMX Debrief Work Order Diagnostics Incident DeployTest1",
+  "SVMXC__Tag_Value__c": "ESMX Debrief Work Order Diagnostics Incident DeployTest1",
+  "ESMX_External_ID__c": "Tag-11090",
+  "Name": "Tag-11090"
+}

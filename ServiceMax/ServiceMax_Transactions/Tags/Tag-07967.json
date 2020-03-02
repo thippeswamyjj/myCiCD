@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-07967"
+  },
+  "Id": "Tag-07967",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "it",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "WORK_ORDER",
+  "SVMXC__Tag_Text__c": "Ordine di lavoro",
+  "SVMXC__Tag_Value__c": "Ordine di lavoro",
+  "ESMX_External_ID__c": "Tag-07967",
+  "Name": "Tag-07967"
+}

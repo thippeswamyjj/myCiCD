@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11099"
+  },
+  "Id": "Tag-11099",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "DATA_VALIDATION_RULE_MESSAGE",
+  "SVMXC__Tag_Key__c": "CONFIRM_DEBRIEF_SYSTEM_STATUS_DATE/TIME_IS_BEFORE__WORK_ORDER_CREATION_DATE/TIME",
+  "SVMXC__Tag_Text__c": "Confirm Debrief system status date/time is before  Work Order creation date/time",
+  "SVMXC__Tag_Value__c": "Confirm Debrief system status date/time is before  Work Order creation date/time",
+  "ESMX_External_ID__c": "Tag-11099",
+  "Name": "Tag-11099"
+}

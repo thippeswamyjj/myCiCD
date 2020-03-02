@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11098"
+  },
+  "Id": "Tag-11098",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "DATA_VALIDATION_RULE_MESSAGE",
+  "SVMXC__Tag_Key__c": "POTENTIAL_SAFETY_ALERT_FIELD_CANNOT_BE_EDITED_FOR_LEGACY_TYPE_OF_CASES",
+  "SVMXC__Tag_Text__c": "Potential Safety Alert Field Cannot Be Edited For Legacy Type Of Cases",
+  "SVMXC__Tag_Value__c": "Potential Safety Alert Field Cannot Be Edited For Legacy Type Of Cases",
+  "ESMX_External_ID__c": "Tag-11098",
+  "Name": "Tag-11098"
+}

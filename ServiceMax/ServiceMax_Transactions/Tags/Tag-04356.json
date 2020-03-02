@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-04356"
+  },
+  "Id": "Tag-04356",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "HEADER_ERROR_MESSAGE",
+  "SVMXC__Tag_Key__c": "THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION",
+  "SVMXC__Tag_Text__c": "This record does not meet the qualification criteria for this SFM Transaction",
+  "SVMXC__Tag_Value__c": "This record does not meet the qualification criteria for this SFM Transaction",
+  "ESMX_External_ID__c": "Tag-04356",
+  "Name": "Tag-04356"
+}

@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-09475"
+  },
+  "Id": "Tag-09475",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "fi",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "WORK_ORDER",
+  "SVMXC__Tag_Text__c": "Työmääräys",
+  "SVMXC__Tag_Value__c": "Työmääräys",
+  "ESMX_External_ID__c": "Tag-09475",
+  "Name": "Tag-09475"
+}

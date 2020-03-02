@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11108"
+  },
+  "Id": "Tag-11108",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "SFM_SECTION_TITLE",
+  "SVMXC__Tag_Key__c": "WORK_ORDER",
+  "SVMXC__Tag_Text__c": "Work Order",
+  "SVMXC__Tag_Value__c": "Work Order",
+  "ESMX_External_ID__c": "Tag-11108",
+  "Name": "Tag-11108"
+}

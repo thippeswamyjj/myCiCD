@@ -1,0 +1,562 @@
+{
+  "finalExcepProcessConfigData": [
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10084"
+      },
+      "Id": "SMAX_Config-10084",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "SVMX.CURRENTRECORDHEADER.SVMXC__Case__c",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Header Field Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Case__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10084",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10085"
+      },
+      "Id": "SMAX_Config-10085",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "SVMX.CURRENTRECORDHEADER.ESMX_Event_Type__c",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Header Field Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Event_Type__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10085",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10086"
+      },
+      "Id": "SMAX_Config-10086",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "SVMX.CURRENTRECORDHEADER.SVMXC__Contact__c",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Header Field Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Follow_Up_Contact__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10086",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10087"
+      },
+      "Id": "SMAX_Config-10087",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "Yes",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Follow_Up_Required__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10087",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10088"
+      },
+      "Id": "SMAX_Config-10088",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "SVMX.CURRENTRECORDHEADER.ESMX_Product_Modality__c",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Header Field Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Product_Modality__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10088",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10089"
+      },
+      "Id": "SMAX_Config-10089",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "Follow Up Activity",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "RecordTypeId",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10089",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10090"
+      },
+      "Id": "SMAX_Config-10090",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "2 - Qualified",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Required_Qualifications__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10090",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10091"
+      },
+      "Id": "SMAX_Config-10091",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "Onsite Service",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Service_Type__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10091",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10092"
+      },
+      "Id": "SMAX_Config-10092",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "Follow Up Required",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "Type__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10092",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10093"
+      },
+      "Id": "SMAX_Config-10093",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "SVMX.CURRENTRECORDHEADER.Name",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Header Field Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "ESMX_Work_Activity__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10093",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-10094"
+      },
+      "Id": "SMAX_Config-10094",
+      "RecordTypeId": "012E0000000kEMYIA2",
+      "SVMXC__Active__c": true,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Configuration_Type__c": "Value Mapping",
+      "SVMXC__Display_Value__c": "SVMX.CURRENTRECORDHEADER.SVMXC__Priority__c",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__MapID__c": "SMAX_Process-06056",
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Parameter_Type__c": "Header Field Value",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Target_Field_Name__c": "Priority__c",
+      "SVMXC__Unprocessed__c": false,
+      "ESMX_External_ID__c": "SMAX_Config-10094",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMYIA2"
+        },
+        "DeveloperName": "Field_Mapping",
+        "Id": "012E0000000kEMYIA2"
+      },
+      "SVMXC__MapID__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-06056",
+        "Id": "SMAX_Process-06056",
+        "RecordTypeId": "012E0000000kEMzIAM"
+      }
+    }
+  ],
+  "finalExcepProcess": {
+    "attributes": {
+      "type": "SVMXC__ServiceMax_Processes__c",
+      "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06056"
+    },
+    "Id": "SMAX_Process-06056",
+    "RecordTypeId": "012E0000000kEMzIAM",
+    "SVMXC__APL_Allow_Partial_Delivery__c": false,
+    "SVMXC__APL_Allow_Partial_Shipment__c": false,
+    "SVMXC__APL_Create_Internal_RMA__c": false,
+    "SVMXC__APL_Create_Supplier_RMA__c": false,
+    "SVMXC__APL_Perform_Entitlement__c": false,
+    "SVMXC__APL_Perform_Route_Calculations__c": false,
+    "SVMXC__APL_Split_Lines__c": false,
+    "SVMXC__Active__c": true,
+    "SVMXC__Allow_Override__c": false,
+    "SVMXC__Calendar_End_Type__c": "Next Day",
+    "SVMXC__Capture_Log__c": false,
+    "SVMXC__Default_On__c": false,
+    "SVMXC__Enable_Attachment__c": false,
+    "SVMXC__Enable_Confirmation_Dialog__c": false,
+    "SVMXC__Enable_Sub_Process__c": false,
+    "SVMXC__Expertise_Match_Enabled__c": false,
+    "SVMXC__Handover__c": false,
+    "SVMXC__Include_Parent__c": false,
+    "SVMXC__Include_Product__c": false,
+    "SVMXC__Include_Top_Level__c": false,
+    "SVMXC__IsDefault__c": false,
+    "SVMXC__IsGlobal__c": false,
+    "SVMXC__IsPrivate__c": false,
+    "SVMXC__IsStandalone__c": false,
+    "SVMXC__IsStandard__c": false,
+    "SVMXC__MapID__c": "ESMX_Follow_Up_Activity_DeployTest1",
+    "SVMXC__Match_Account__c": false,
+    "SVMXC__Match_Contact__c": false,
+    "SVMXC__Match_Location__c": false,
+    "SVMXC__Mode_Of_Execution__c": "Interactive",
+    "SVMXC__Name__c": "ESMX Follow Up Activity DeployTest1",
+    "SVMXC__Open_As_Full_Window__c": false,
+    "SVMXC__Preferred_Tech_Enabled__c": false,
+    "SVMXC__Product_Match_Enabled__c": false,
+    "SVMXC__Resolve_Unexpected_SN_To_IB__c": false,
+    "SVMXC__Retain_Appointment__c": false,
+    "SVMXC__Retain_Assignment__c": false,
+    "SVMXC__Runs_Every_Friday__c": false,
+    "SVMXC__Runs_Every_Monday__c": false,
+    "SVMXC__Runs_Every_Saturday__c": false,
+    "SVMXC__Runs_Every_Sunday__c": false,
+    "SVMXC__Runs_Every_Thursday__c": false,
+    "SVMXC__Runs_Every_Tuesday__c": false,
+    "SVMXC__Runs_Every_Wednesday__c": false,
+    "SVMXC__Schedule_Event__c": false,
+    "SVMXC__Select_Template_At_Runtime__c": false,
+    "SVMXC__Select__c": false,
+    "SVMXC__Show_Scrollbars__c": true,
+    "SVMXC__Start_Time__c": "12:00 AM",
+    "SVMXC__Target_Object_Name__c": "Activity__c",
+    "SVMXC__Enable_Child_Line_Entitlement__c": false,
+    "SVMXC__Notify_Technician__c": false,
+    "SVMXC__SM_Do_Not_Create_New_WO__c": false,
+    "SVMXC__SM_Include_Object_Data_Set__c": true,
+    "SVMXC__SM_Include_Skipped_Sections__c": false,
+    "SVMXC__SM_Run_Targeted_Sync__c": false,
+    "SVMXC__SM_Enable_Version_Control__c": false,
+    "ESMX_External_ID__c": "SMAX_Process-06056",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMzIAM"
+      },
+      "DeveloperName": "Object_Mapping",
+      "Id": "012E0000000kEMzIAM"
+    }
+  }
+}

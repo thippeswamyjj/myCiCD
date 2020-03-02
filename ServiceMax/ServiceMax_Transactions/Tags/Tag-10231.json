@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-10231"
+  },
+  "Id": "Tag-10231",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "pt_BR",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION",
+  "SVMXC__Tag_Text__c": "Este registro não cumpre os critérios de qualificação para esta Transação SFM",
+  "SVMXC__Tag_Value__c": "Este registro não cumpre os critérios de qualificação para esta Transação SFM",
+  "ESMX_External_ID__c": "Tag-10231",
+  "Name": "Tag-10231"
+}

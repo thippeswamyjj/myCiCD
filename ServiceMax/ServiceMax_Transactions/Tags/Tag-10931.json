@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-10931"
+  },
+  "Id": "Tag-10931",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "iw",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "THIS_RECORD_DOES_NOT_MEET_THE_QUALIFICATION_CRITERIA_FOR_THIS_SFM_TRANSACTION",
+  "SVMXC__Tag_Text__c": "רשומה  זו לא תואמת את הקריטריונים של ההכשרה עבור טרנזקציית SFM זו",
+  "SVMXC__Tag_Value__c": "רשומה  זו לא תואמת את הקריטריונים של ההכשרה עבור טרנזקציית SFM זו",
+  "ESMX_External_ID__c": "Tag-10931",
+  "Name": "Tag-10931"
+}

@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11101"
+  },
+  "Id": "Tag-11101",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "DATA_VALIDATION_RULE_MESSAGE",
+  "SVMXC__Tag_Key__c": "OUT_OF_COUNTRY_CAN_BE_CHECKED_FOR_BENCH_REPAIR_SERVICE_TYPE_ONLY",
+  "SVMXC__Tag_Text__c": "Out Of Country can be checked for Bench Repair Service Type only",
+  "SVMXC__Tag_Value__c": "Out Of Country can be checked for Bench Repair Service Type only",
+  "ESMX_External_ID__c": "Tag-11101",
+  "Name": "Tag-11101"
+}

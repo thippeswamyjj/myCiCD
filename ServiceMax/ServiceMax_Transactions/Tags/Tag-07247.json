@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-07247"
+  },
+  "Id": "Tag-07247",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "es",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "WORK_ORDER",
+  "SVMXC__Tag_Text__c": "Orden de trabajo",
+  "SVMXC__Tag_Value__c": "Orden de trabajo",
+  "ESMX_External_ID__c": "Tag-07247",
+  "Name": "Tag-07247"
+}

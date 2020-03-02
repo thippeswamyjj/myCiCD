@@ -1,0 +1,16 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-11093"
+  },
+  "Id": "Tag-11093",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "Master",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Context__c": "DATA_VALIDATION_RULE_MESSAGE",
+  "SVMXC__Tag_Key__c": "ONE_OR_MORE_SYMPTOM_CODES_HAVE_BEEN_SET_TO_‘UNABLE_TO_CODE’_PLEASE_COMPLETE_THE_CODING_WHERE_POSSIBLE",
+  "SVMXC__Tag_Text__c": "One or more Symptom codes have been set to ‘unable to code’ please complete the coding where possible",
+  "SVMXC__Tag_Value__c": "One or more Symptom codes have been set to ‘unable to code’ please complete the coding where possible",
+  "ESMX_External_ID__c": "Tag-11093",
+  "Name": "Tag-11093"
+}

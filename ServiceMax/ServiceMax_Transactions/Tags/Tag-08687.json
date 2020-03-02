@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "type": "SVMXC__ServiceMax_Tags__c",
+    "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Tags__c/Tag-08687"
+  },
+  "Id": "Tag-08687",
+  "SVMXC__IsCustom__c": false,
+  "SVMXC__Language__c": "nl_NL",
+  "SVMXC__Select_Tag__c": false,
+  "SVMXC__Tag_Key__c": "WORK_ORDER",
+  "SVMXC__Tag_Text__c": "Werkorder",
+  "SVMXC__Tag_Value__c": "Werkorder",
+  "ESMX_External_ID__c": "Tag-08687",
+  "Name": "Tag-08687"
+}
