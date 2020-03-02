@@ -1,0 +1,437 @@
+{
+  "SFMEventmainpage": [],
+  "pagLayout": {
+    "attributes": {
+      "type": "SVMXC__Page_Layout__c",
+      "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+    },
+    "Id": "Page_layout-00374",
+    "SVMXC__Action_On_Zero_Lines__c": "Allow",
+    "SVMXC__Allow_Delete_Lines__c": true,
+    "SVMXC__Allow_New_Lines__c": true,
+    "SVMXC__Enable_Attachments__c": false,
+    "SVMXC__Enable_Chatter__c": false,
+    "SVMXC__Enable_Service_Report_Generation__c": false,
+    "SVMXC__Enable_Service_Report_View__c": false,
+    "SVMXC__Enable_Troubleshooting__c": false,
+    "SVMXC__Header_Page_Layout__c": "Page_layout-00373",
+    "SVMXC__Hide_Quick_Save__c": false,
+    "SVMXC__Hide_Save__c": false,
+    "SVMXC__IsStandard__c": false,
+    "SVMXC__Name__c": "Work Activity",
+    "SVMXC__Object_Name__c": "Activity__c",
+    "SVMXC__Page_Detail_UniqueId__c": "a2o210000008yj0AAA",
+    "SVMXC__Page_Layout_ID__c": "Work Activity",
+    "SVMXC__Prompt_For_New_Event__c": false,
+    "SVMXC__Sequence__c": 1,
+    "SVMXC__Show_Account_History__c": false,
+    "SVMXC__Show_All_Sections_By_Default__c": false,
+    "SVMXC__Show_Product_History__c": false,
+    "SVMXC__Type__c": "Detail",
+    "SVMXC__SM_Include_Contact__c": false,
+    "SVMXC__SM_Include_Summary__c": false,
+    "SVMXC__SM_Include_Time_and_Place__c": false,
+    "ESMX_External_ID__c": "Page_layout-00374",
+    "SVMXC__Header_Page_Layout__r": {
+      "attributes": {
+        "type": "SVMXC__Page_Layout__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00373"
+      },
+      "ESMX_External_ID__c": "Page_layout-00373",
+      "Id": "Page_layout-00373"
+    }
+  },
+  "mainpagelayDetail": [
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04453"
+      },
+      "Id": "Page_Detail-04453",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "picklist",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 1,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "Type__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBx6AAG",
+      "SVMXC__Readonly__c": false,
+      "SVMXC__Required__c": true,
+      "SVMXC__Sequence__c": 1,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04453",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04454"
+      },
+      "Id": "Page_Detail-04454",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "textarea",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 2,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "Description__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBx7AAG",
+      "SVMXC__Readonly__c": false,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 2,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04454",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04455"
+      },
+      "Id": "Page_Detail-04455",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "textarea",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 3,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_PHI_Data_Shield__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBx8AAG",
+      "SVMXC__Readonly__c": false,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 3,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04455",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04456"
+      },
+      "Id": "Page_Detail-04456",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "boolean",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 4,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Sensitive_Data__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBx9AAG",
+      "SVMXC__Readonly__c": false,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 4,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04456",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04457"
+      },
+      "Id": "Page_Detail-04457",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "textarea",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 5,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Evidence_for_Conclusions__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxAAAW",
+      "SVMXC__Readonly__c": false,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 5,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04457",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04458"
+      },
+      "Id": "Page_Detail-04458",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "reference",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 6,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "RecordTypeId",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxBAAW",
+      "SVMXC__Readonly__c": true,
+      "SVMXC__Related_Object_Name_Field__c": "Name",
+      "SVMXC__Related_Object_Name__c": "RecordType",
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 6,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04458",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04459"
+      },
+      "Id": "Page_Detail-04459",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Context_Source_Object__c": "CURRENT_RECORD",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "reference",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 7,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Case__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxCAAW",
+      "SVMXC__Readonly__c": true,
+      "SVMXC__Related_Object_Name_Field__c": "CaseNumber",
+      "SVMXC__Related_Object_Name__c": "Case",
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 7,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04459",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04460"
+      },
+      "Id": "Page_Detail-04460",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "picklist",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 8,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Event_Type__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxDAAW",
+      "SVMXC__Readonly__c": true,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 8,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04460",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04461"
+      },
+      "Id": "Page_Detail-04461",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "picklist",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 9,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Service_Type__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxEAAW",
+      "SVMXC__Readonly__c": true,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 9,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04461",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04462"
+      },
+      "Id": "Page_Detail-04462",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "double",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 10,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Activity_Count_Problem__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxFAAW",
+      "SVMXC__Readonly__c": true,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 10,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04462",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    },
+    {
+      "attributes": {
+        "type": "SVMXC__Page_Layout_Detail__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout_Detail__c/Page_Detail-04463"
+      },
+      "Id": "Page_Detail-04463",
+      "SVMXC__Page_Layout__c": "Page_layout-00374",
+      "SVMXC__Control_Type__c": "Standard",
+      "SVMXC__DataType__c": "double",
+      "SVMXC__Detail_Type__c": "Field",
+      "SVMXC__Display_Column__c": 11,
+      "SVMXC__Display_Row__c": 0,
+      "SVMXC__Enable_Chatter__c": false,
+      "SVMXC__Field_API_Name__c": "ESMX_Activity_Count_Diagnostic__c",
+      "SVMXC__Installation_Key__c": "MDBEbjAwMDAwMDA5R2o2",
+      "SVMXC__IsStandard__c": false,
+      "SVMXC__Override_Related_Lookup__c": false,
+      "SVMXC__Override__c": false,
+      "SVMXC__Page_Layout_Detail_Id__c": "a2n29000000SBxGAAW",
+      "SVMXC__Readonly__c": true,
+      "SVMXC__Required__c": false,
+      "SVMXC__Sequence__c": 11,
+      "SVMXC__Show_In_Web__c": false,
+      "SVMXC__Show_In_iPad__c": false,
+      "SVMXC__Use_For_SLA_Clock__c": false,
+      "ESMX_External_ID__c": "Page_Detail-04463",
+      "SVMXC__Page_Layout__r": {
+        "attributes": {
+          "type": "SVMXC__Page_Layout__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__Page_Layout__c/Page_layout-00374"
+        },
+        "ESMX_External_ID__c": "Page_layout-00374",
+        "Id": "Page_layout-00374"
+      }
+    }
+  ],
+  "headerpagelayout": []
+}
