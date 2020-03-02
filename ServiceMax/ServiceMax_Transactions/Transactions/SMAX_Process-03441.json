@@ -1,5 +1,5 @@
 {
-  "SFMTransactionConfigData": [],
+  "SFMTransactionConfigData": null,
   "SFMTargetMan": {
     "attributes": {
       "type": "SVMXC__ServiceMax_Processes__c",
