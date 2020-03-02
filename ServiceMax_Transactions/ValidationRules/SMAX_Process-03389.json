@@ -1,0 +1,128 @@
+{
+  "SFMProcBusObj": {
+    "attributes": {
+      "type": "SVMXC__ServiceMax_Processes__c",
+      "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-03389"
+    },
+    "Id": "SMAX_Process-03389",
+    "RecordTypeId": "012E0000000kEMnIAM",
+    "SVMXC__APL_Allow_Partial_Delivery__c": false,
+    "SVMXC__APL_Allow_Partial_Shipment__c": false,
+    "SVMXC__APL_Create_Internal_RMA__c": false,
+    "SVMXC__APL_Create_Supplier_RMA__c": false,
+    "SVMXC__APL_Perform_Entitlement__c": false,
+    "SVMXC__APL_Perform_Route_Calculations__c": false,
+    "SVMXC__APL_Split_Lines__c": false,
+    "SVMXC__Active__c": false,
+    "SVMXC__Allow_Override__c": false,
+    "SVMXC__Calendar_End_Type__c": "Next Day",
+    "SVMXC__Capture_Log__c": false,
+    "SVMXC__Default_On__c": false,
+    "SVMXC__Description__c": "This Formula is to get Technician name on Activity from Work order",
+    "SVMXC__Enable_Attachment__c": false,
+    "SVMXC__Enable_Confirmation_Dialog__c": false,
+    "SVMXC__Enable_Sub_Process__c": false,
+    "SVMXC__Expertise_Match_Enabled__c": false,
+    "SVMXC__Full_Run_Unit__c": "Days",
+    "SVMXC__Handover__c": false,
+    "SVMXC__Include_Parent__c": false,
+    "SVMXC__Include_Product__c": false,
+    "SVMXC__Include_Top_Level__c": false,
+    "SVMXC__IsDefault__c": false,
+    "SVMXC__IsGlobal__c": false,
+    "SVMXC__IsPrivate__c": false,
+    "SVMXC__IsStandalone__c": false,
+    "SVMXC__IsStandard__c": false,
+    "SVMXC__Match_Account__c": false,
+    "SVMXC__Match_Contact__c": false,
+    "SVMXC__Match_Location__c": false,
+    "SVMXC__Mode_Of_Execution__c": "Interactive",
+    "SVMXC__Name__c": "ESMX Technician Name_CSR",
+    "SVMXC__Open_As_Full_Window__c": false,
+    "SVMXC__Preferred_Tech_Enabled__c": false,
+    "SVMXC__ProcessID__c": "ESMX_Technician_Name_CSR",
+    "SVMXC__Product_Match_Enabled__c": false,
+    "SVMXC__Resolve_Unexpected_SN_To_IB__c": false,
+    "SVMXC__Retain_Appointment__c": false,
+    "SVMXC__Retain_Assignment__c": false,
+    "SVMXC__Rule_Type__c": "Field Update Rule",
+    "SVMXC__Runs_Every_Friday__c": false,
+    "SVMXC__Runs_Every_Monday__c": false,
+    "SVMXC__Runs_Every_Saturday__c": false,
+    "SVMXC__Runs_Every_Sunday__c": false,
+    "SVMXC__Runs_Every_Thursday__c": false,
+    "SVMXC__Runs_Every_Tuesday__c": false,
+    "SVMXC__Runs_Every_Wednesday__c": false,
+    "SVMXC__Schedule_Event__c": false,
+    "SVMXC__Select_Template_At_Runtime__c": false,
+    "SVMXC__Select__c": false,
+    "SVMXC__Show_Scrollbars__c": true,
+    "SVMXC__Source_Object_Name__c": "Activity__c",
+    "SVMXC__Start_Time__c": "12:00 AM",
+    "SVMXC__Target_Object_label__c": "Work Activity",
+    "SVMXC__View_For__c": "Grid",
+    "SVMXC__Enable_Child_Line_Entitlement__c": false,
+    "SVMXC__Notify_Technician__c": false,
+    "SVMXC__SM_Do_Not_Create_New_WO__c": false,
+    "SVMXC__SM_Include_Object_Data_Set__c": true,
+    "SVMXC__SM_Include_Skipped_Sections__c": false,
+    "SVMXC__SM_Run_Targeted_Sync__c": false,
+    "SVMXC__SM_Enable_Version_Control__c": false,
+    "ESMX_External_ID__c": "SMAX_Process-03389",
+    "RecordType": {
+      "attributes": {
+        "type": "RecordType",
+        "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kEMnIAM"
+      },
+      "DeveloperName": "Business_Rule",
+      "Id": "012E0000000kEMnIAM"
+    }
+  },
+  "Servicemaxconfig": [
+    {
+      "attributes": {
+        "type": "SVMXC__ServiceMax_Config_Data__c",
+        "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Config_Data__c/SMAX_Config-08645"
+      },
+      "Id": "SMAX_Config-08645",
+      "RecordTypeId": "012E0000000kJTYIA2",
+      "SVMXC__Active__c": false,
+      "SVMXC__Allow_API_Access__c": false,
+      "SVMXC__Description__c": "[{\"sequence\":0,\"aliasName\":\"Work_Order\",\"objectLabel\":\"Work Order\"},{\"sequence\":1,\"aliasName\":\"Follow_Up_Activity\",\"objectLabel\":\"Follow Up Activity\"},{\"sequence\":2,\"aliasName\":\"Work_Activity\",\"objectLabel\":\"Work Activity\"},{\"sequence\":3,\"aliasName\":\"Parts_required_for_follow_up_activity\",\"objectLabel\":\"Parts required for follow-up activity\"}]",
+      "SVMXC__Enable_Calendar__c": false,
+      "SVMXC__Enable_Get_Price__c": false,
+      "SVMXC__Enable_Task__c": false,
+      "SVMXC__Expression_Rule__c": "SMAX_Process-03389",
+      "SVMXC__Expression_Type__c": "Field_Update_Rule",
+      "SVMXC__Field_Name__c": "ESMX_Technician_Name_CSR__c",
+      "SVMXC__IsDefault__c": false,
+      "SVMXC__Is_Name_Field__c": false,
+      "SVMXC__Ownership_Type__c": "My Records",
+      "SVMXC__Required__c": false,
+      "SVMXC__Select__c": false,
+      "SVMXC__Sort_Order__c": "Ascending",
+      "SVMXC__Sync_Data_On_Login__c": true,
+      "SVMXC__Unprocessed__c": false,
+      "SVMXC__Action_Type__c": "Set Value",
+      "SVMXC__Formula__c": "$D.Work_Order.ESMX_Technician_Name_csr__c",
+      "ESMX_External_ID__c": "SMAX_Config-08645",
+      "RecordType": {
+        "attributes": {
+          "type": "RecordType",
+          "url": "/services/data/v48.0/sobjects/RecordType/012E0000000kJTYIA2"
+        },
+        "DeveloperName": "Field_Updates",
+        "Id": "012E0000000kJTYIA2"
+      },
+      "SVMXC__Expression_Rule__r": {
+        "attributes": {
+          "type": "SVMXC__ServiceMax_Processes__c",
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-03389"
+        },
+        "ESMX_External_ID__c": "SMAX_Process-03389",
+        "Id": "SMAX_Process-03389",
+        "RecordTypeId": "012E0000000kEMnIAM"
+      }
+    }
+  ]
+}
