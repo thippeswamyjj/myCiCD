@@ -45,7 +45,7 @@
       "SVMXC__Preferred_Tech_Enabled__c": false,
       "SVMXC__Process1__c": "SMAX_Process-06098",
       "SVMXC__ProcessID__c": "PN-0000040371",
-      "SVMXC__Process__c": "a3Kn0000000q67iEAA",
+      "SVMXC__Process__c": "SMAX_Process-06058",
       "SVMXC__Product_Match_Enabled__c": false,
       "SVMXC__Resolve_Unexpected_SN_To_IB__c": false,
       "SVMXC__Retain_Appointment__c": false,
@@ -101,10 +101,10 @@
       "SVMXC__Process__r": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
-          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/a3Kn0000000q67iEAA"
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-06058"
         },
         "ESMX_External_ID__c": "SMAX_Process-06058",
-        "Id": "a3Kn0000000q67iEAA",
+        "Id": "SMAX_Process-06058",
         "RecordTypeId": "012E0000000kENBIA2"
       },
       "SVMXC__Submodule__r": {
@@ -161,7 +161,7 @@
       "SVMXC__Open_As_Full_Window__c": false,
       "SVMXC__Preferred_Tech_Enabled__c": false,
       "SVMXC__ProcessID__c": "PN-0000040372",
-      "SVMXC__Process__c": "a3Kn0000000ptH9EAI",
+      "SVMXC__Process__c": "SMAX_Process-03441",
       "SVMXC__Product_Match_Enabled__c": false,
       "SVMXC__Resolve_Unexpected_SN_To_IB__c": false,
       "SVMXC__Retain_Appointment__c": false,
@@ -208,10 +208,10 @@
       "SVMXC__Process__r": {
         "attributes": {
           "type": "SVMXC__ServiceMax_Processes__c",
-          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/a3Kn0000000ptH9EAI"
+          "url": "/services/data/v48.0/sobjects/SVMXC__ServiceMax_Processes__c/SMAX_Process-03441"
         },
         "ESMX_External_ID__c": "SMAX_Process-03441",
-        "Id": "a3Kn0000000ptH9EAI",
+        "Id": "SMAX_Process-03441",
         "RecordTypeId": "012E0000000kENBIA2"
       },
       "SVMXC__Submodule__r": {
